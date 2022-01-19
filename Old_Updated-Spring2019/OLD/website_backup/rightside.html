@@ -1,0 +1,81 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Clemson Ultimate</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+
+// change this to where you store the blank.gif image
+var blank = "http://www.your-web-site-address-here.com/blank.gif";
+
+topedge = 40;  // location of news box from top of page
+leftedge = 0;  // location of news box from left edge
+boxheight = 320;  // height of news box
+boxwidth = 240;  // width of news box
+scrollheight = 300; // total height of all data to be scrolled
+
+function scrollnews(cliptop) {
+if (document.layers) {
+newsDiv = document.news;
+newsDiv.clip.top = cliptop;
+newsDiv.clip.bottom = cliptop + boxheight;
+newsDiv.clip.left = 0;
+newsDiv.clip.right = boxwidth + leftedge;
+newsDiv.left = leftedge;
+newsDiv.top = topedge - cliptop;
+}
+else {
+newsDiv = news.style;
+newsDiv.clip = "rect(" + cliptop + "px " + (boxwidth + leftedge) + "px " + (cliptop + boxheight) + "px 0px)";
+newsDiv.pixelLeft = leftedge;
+newsDiv.pixelTop = topedge - cliptop;
+}
+cliptop = (cliptop + 1) % (scrollheight + boxheight);
+newsDiv.visibility='visible';
+setTimeout("scrollnews(" + cliptop + ")", 25);
+}
+//  End -->
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<base target="_self">
+
+</HEAD>
+
+
+<BODY  BGCOLOR="#cccccc"" TEXT="#FF6600" LINK="#660099" 
+VLINK="#660099" ALINK="#660099" OnLoad="scrollnews(0)">
+
+<div align="center"><B><U>News</U></B></div>
+<div align="center"><div ID="news" style="position:absolute; visibility:hidden;
+top:1; left:1; height:600;
+clip:rect(10,100,100,10); border-width:0px;">
+<table border=0 cellpadding=1 cellspacing=0 bgcolor="white">
+<script language="javascript">
+document.write('<img src=' + blank + ' width=1 height='+boxheight+'>');
+</script>
+
+
+<Center>Welcome to the Clemson Ultimate<br>
+Web Page<br>
+<BR>Congratulations to our new officers:<br>
+President: Joel Kohn<br>
+Practice Captain: Nick Shaw<br>
+Tournament Captain: Chris Vutsinas<br>Tournament Captain: Chris Parrish<br>
+Safety Officer: Kyle Benson<br><br>This site is under Construction<br>
+so please check back frequently<br>
+<BR>If you have any questions or Comments<br>
+<a href="mailto:clmnult@clemson.edu">E-mail us</a><br>
+<!-- End Of Your News Items -->
+
+<script language="javascript">
+document.write('<img src=' + blank + ' width=1 height='+boxheight+'>');
+
+</script>
+
+</BODY>
+
+</HTML>

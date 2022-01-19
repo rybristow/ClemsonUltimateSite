@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Clemson Ultimate</title>
+
+  <style>
+
+  body{
+    background-color: #444444;
+
+  }
+
+  #players {
+
+    /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+
+    width: 500px;
+
+    margin: auto;
+
+    border-collapse: collapse;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    margin: auto;
+
+  }
+
+
+
+  #players td, #players th {
+
+      font-size: 1em;
+
+      border: 1px solid black;
+
+      padding: 3px 7px 2px 7px;
+
+  }
+
+
+
+  #players th {
+
+      font-size: 1.1em;
+
+      text-align: left;
+
+      padding-top: 5px;
+
+      padding-bottom: 4px;
+
+      background-color: #522D80;
+
+      color: #ffffff;
+
+  }
+
+
+  #players td{
+
+      background-color: #F66733;
+
+  }
+
+
+  #players tr.alt td {
+
+      color: #000000;
+
+      background-color: #EAF2D3;
+
+  }
+
+  img.head{
+
+    width: 542px;
+
+    height: auto;
+
+  }
+
+  img.team{
+
+    margin: auto;
+
+    display: block;
+
+    padding: 10px 10px 10px 10px;
+
+    max-height: 400px;
+
+    width:auto;
+
+    max-width: 100%;
+
+  }
+
+  ul {
+
+    list-style-type: none;
+
+    margin: auto;
+
+    text-align: center;
+
+    padding: 0;
+
+    overflow: hidden;
+
+  }
+
+  p{
+
+    font-size: 45px;
+
+    padding: 0 0 0 0;
+
+    margin: 0 0 0 0;
+
+    color: white;
+
+  }
+
+  p.comment{
+
+    text-align: center;
+
+    font-size: 16px;
+
+  }
+
+  li {
+
+    display: inline-block;
+
+      float: center;
+
+  }
+
+  div.sidebar{
+
+        float: left;
+
+        width: 150px;
+
+        height: 900px;
+
+        margin-right: -156px;
+
+        background-color: #F66733;
+
+        border: solid #F66733;
+
+  }
+
+  div.tableArea{
+
+        display: table;
+
+        height: 420px;
+
+        width: calc(100% - 156px);
+
+        min-width: calc(720px - 156px);
+
+        margin-left: 156px;
+
+  }
+
+  div.picArea{
+
+        display: table;
+
+        height: 400px;
+
+        width: calc(100% - 156px);
+
+        min-width: calc(720px - 156px);
+
+        margin-left: 156px;
+
+  }
+
+  div.titleArea{
+
+        text-align: center;
+        overflow: auto;
+        width: calc(100% - 156px);
+        min-width: calc(720px - 156px);
+        margin-left: 156px;
+        background-color: #522D80;
+  }
+
+  div.nav{
+ 
+       text-align: center;
+
+        width: 100%;
+
+        min-width: 720px;
+
+        background-color: #F66733;
+
+
+  }
+
+  a.bar:link, a.bar:visited {
+
+      display: block;
+
+      margin: -4px;
+
+      width: 150px;
+
+      font-weight: bold;
+
+      color: #FFFFFF;
+
+      background-color: #F66733;
+
+      text-align: center;
+
+      padding: 10px;
+
+      text-decoration: none;
+
+      text-transform: uppercase;
+
+  }
+
+  a.bar:hover, a.bar:active {
+
+      background-color: #E65723;
+
+  }
+
+  img.main{
+
+    padding-top:50px;
+
+    margin: auto;
+
+    display: block;
+
+    max-width:600px;
+
+    width:100%;
+
+    height: auto;
+
+  }
+
+  span.white{
+
+    color: white;
+
+  }
+
+  span.regalia{
+
+    color: #522D80;
+
+  }
+
+  span.cuorange{
+
+    color: #F66733;
+
+  }
+
+  div.intro {
+ 
+        text-align: center;
+
+        max-width: 800px;
+
+        font-size: 18px;
+
+        margin: auto;
+
+  }
+
+</style>
+
+</head>
+<body>
+
+  <img src="customLogo.png" class="head">
+
+  <div class="nav">
+  <ul>
+
+	<li><a href="index.html" class="bar">Home</a></li>
+	<li><a href="practiceinfo.html" class="bar">Practice Info</a></li>
+
+	<li><a href="roster2015_2016.html" class="bar">Rosters</a></li>
+	<li><a href="schedule16_17.html" class="bar">Schedule</a></li>
+	<li><a href="ghostdance.html" class="bar">Ghost Dance</a></li>
+
+	<li><a href="jointsummit.html" class="bar">Joint Summit</a></li>
+
+
+  </ul>
+
+  </div>
+
+  <div>
+
+    <div class="sidebar">
+
+      <ul>
+
+        <li><a href="schedule15_16.html" class="bar">2015-2016</a></li>
+	<li><a href="schedule16_17.html" class="bar">2016-2017</a></li>
+      </ul>
+
+    </div>
+
+    <div class="titleArea">
+
+      <p>Schedule 2015-2016</p>
+
+    </div>
+
+    <div class="picArea">
+
+      <img src="team2015_2016.jpg" class="team">
+
+    </div>
+
+    <div class="tableArea">
+
+      <table id="players">
+
+        <tr>
+
+          <th>Fall 2015</th>
+
+          <th>Date</th>
+
+          <th>Record</th>
+
+          <th>Result</th>
+
+        </tr>
+        <tr>
+
+          <td>Ghost Dance</td>
+
+          <td>9/19-9/20</td>
+
+          <td>6-1</td>
+
+          <td>2nd/8</td>
+
+        </tr>
+        <tr>
+
+          <td>Dave Baldwin Memorial Tournament</td>
+
+          <td>9/26-9/27</td>
+
+          <td>6-1</td>
+
+          <td>2nd/16</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Brickyard Brawl</td>
+
+          <td>10/17-10/18</td>
+
+          <td>4-2</td>
+
+          <td>4th/16</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Burlington Brawl</td>
+
+          <td>10/24-10/25</td>
+
+          <td>7-1</td>
+
+          <td>2nd/8</td>
+
+        </tr>
+
+        <tr>
+
+	  <td>Fall Easterns</td>
+
+          <td>11/12-11/13</td>
+
+          <td>2-5</td>
+
+          <td>8th/16</td>
+
+        </tr>
+
+
+	<tr>
+
+          <th>Spring 2016</th>
+
+          <th>Date</th>
+
+          <th>Record</th>
+
+          <th>Result</th>
+
+        </tr>
+        <tr>
+
+          <td>T-Town Throwdown</td>
+
+          <td>1/30-1/31</td>
+
+          <td>3-3</td>
+
+          <td>13th/20</td>
+
+        </tr>
+        <tr>
+
+          <td>Eastern Qualifier</td>
+
+          <td>2/20-2/21</td>
+
+          <td>3-5</td>
+
+          <td>14th/25</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Tally Classic</td>
+
+          <td>3/5-3/6</td>
+
+          <td>3-4</td>
+
+          <td>13th/20</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Joint Summit</td>
+
+          <td>4/2-4/3</td>
+
+          <td>6-1</td>
+
+          <td>2nd/8</td>
+
+        </tr>
+
+        <tr>
+
+	  <td>Carolina D1 Sectionals</td>
+
+          <td>4/16-4/17</td>
+
+          <td>4-3</td>
+
+          <td>4th/11</td>
+
+        </tr>
+        <tr>
+
+	  <td>Atlantic Coast D1 Regionals</td>
+
+          <td>4/30-5/1</td>
+
+          <td>1-3</td>
+
+          <td>11th/16</td>
+
+        </tr>
+
+      </table>
+    </div>
+
+  </div>
+
+  <div class="nav">
+
+  <ul>
+
+      <li><a href="links.html" class="bar">Links</a></li>
+
+      <li><a href="contact.html" class="bar">Contact</a></li>
+
+  </ul>
+
+  </div>
+
+</body>
+
+</html>

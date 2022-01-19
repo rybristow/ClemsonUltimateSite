@@ -1,0 +1,87 @@
+------------------------------------------------------------
+           name: CROSBY CHARLES E
+     department:  402  GENERAL ENGINEERING
+             ss: 
+          email: CCROSBY@CLEMSON.EDU
+          local: E628  JOHNSTONE , P O BOX  3727 
+           home: 141 BEND WAY  DEL RIO TN 37727
+    local_phone: 858-7995
+------------------------------------------------------------
+           name: BRENT MICHAEL R
+     department:  402  GENERAL ENGINEERING
+             ss:
+          email: MBRENT@CLEMSON.EDU
+          local:       
+           home: 141 LAMB-HOPE RD  HOPEWELL NJ 08525
+    local_phone: 858-7009
+
+
+  Matt Lipscomb
+  237 N. Clemson Ave  29631
+  654-8408
+  mlipsco@eng.clemson.edu
+  ChE
+  290706903
+
+  Monica M McDill
+  107-1 Earle St.
+  Clemson, SC 29631
+  654-2350
+  mmcdill@eng
+  ChemEngr
+  249-43-6439
+  12-12-73
+
+  Jason Robert Jeffries
+  2/27/78
+  P.O. Box 4179
+  Clemson, SC 29632-4179
+  858-6946
+  Jjeffri@clemson.edu
+  167-66-2652
+  Physics
+
+  Justin Porter Coon
+  3/23/78
+  228-27-7943
+  P.O. Box 4174
+  Clemson, SC 29632-4174
+  Jcoon@clemson.edu
+  Electrical Engineer
+  858-6946
+
+
+  Kimberly Wilbert
+  kwilber@Clemson.edu
+  119-2 Freedom Dr.
+  Clemson, SC 29631
+  170-56-4614
+  654-5006
+  3/3/76
+
+  Wade Ackerman
+  christopher wade ackerman
+  5/13/75
+  Mech Engr.
+  249-55-1742
+  apt 22    university place  clemson sc  29631
+  cackerm@clemson.clemson.edu
+
+  Mike Gasper
+  234 University Comm
+  Cayce, SC 29033
+  803-926-4932.
+  mgasper@clemson.edu
+
+  chuck alexander
+  119-2 Freedom Dr.
+  Clemson, SC 29631
+  654-5006
+  cwalexa@clemson.edu
+  249-63-3099
+
+  Jesse Woodard
+  jcwoodw.clemson.edu
+  815 Creekside Dr. Apt 912
+  Clemson, SC 29631
+  654-6026

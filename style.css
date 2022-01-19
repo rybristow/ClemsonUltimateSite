@@ -1,0 +1,190 @@
+#socialMediaBar	{
+	height:80px;
+	width:100%;
+  background-color:#ffffff;
+  display: table;
+  text-align: right;
+}
+
+#socialMediaLogo {
+	height:50px;
+  padding-right: 10px;
+  display: block;
+  margin-left: 10px;
+}
+
+#socialMediaLogos {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  right: 100%;
+  margin-right: 20px;
+  align: right;
+  vertical-align: center;
+  display: block;
+}
+
+#menuBar {
+  height:160px;
+	width: 100%;
+  background-color:#f66733;
+  display: block;
+}
+
+#menuBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 95px;
+    overflow: hidden;
+}
+
+#menuBar li {
+    float: left;
+}
+
+#menuBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menuBar li a:hover {
+    background-color: #e55622;
+}
+
+#instagram {
+  background-color: #000000;
+  height: auto;
+}
+
+#content {
+  background-color:#E0E0E0;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+.emptySpace {
+  height: 100px;
+}
+
+#tile {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  min-height: 500px;
+  background-color: #ffffff;
+  display: inline-block;
+  box-shadow: 0px 20px 50px #888888;
+}
+
+.tileSpace {
+  height: 50px;
+}
+
+#updates {
+  width: 70%;
+  min-height: 500px;
+  height: auto;
+  float: left;
+  box-shadow: 0px 20px 50px #bbbbbb;
+  text-align: center;
+}
+
+#updates h1 {
+  text-align: left;
+  margin-left: 15%;
+  font-size: 3em;
+}
+
+#update {
+  width: 90%;
+  height: 400px;
+  margin-left: 5%;
+  border-top: 2px solid #cccccc;
+}
+
+#update h2 {
+  margin-left: 15%;
+  text-align: left;
+}
+
+#update img {
+  float: middle;
+  max-width: 80%;
+  max-height: 70%;
+}
+
+#extras {
+  margin-top: 50px;
+  width: 30%;
+  height: 100%;
+  min-height: 450px;
+  float: right;
+}
+
+#extra {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #cccccc;
+}
+
+#extra h2 {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: auto;
+}
+
+#extra img {
+  height: auto;
+  width: auto;
+  max-height: 75%;
+  max-width: 80%;
+  margin-bottom: 5%;
+  margin-top: auto;
+}
+
+#roster {
+  text-align: center;
+  height: auto;
+}
+
+#dataTable {
+	margin-left: 15%;
+	margin-right: 15%;
+  width: 70%;
+  height: auto;
+}
+
+#dataTable table {
+  width: 70%;
+  height: auto;
+  display: inline-block;
+}
+
+#dataTable th, td {
+  border: 1px solid black;
+}
+
+#tournament {
+  text-align: center;
+}
+
+#tournament table, th, td {
+  border: 1px solid black;
+}
+
+#tournament table {
+	margin-left: 15%;
+	margin-right: 15%;
+  width: 70%;
+}

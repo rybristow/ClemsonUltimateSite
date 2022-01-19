@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clemson Ultimate</title>
+  <style>
+  body{
+    background-color: #444444;
+  }
+  #players {
+    /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+  }
+
+  #players td, #players th {
+      font-size: 1em;
+      border: 1px solid black;
+      padding: 3px 7px 2px 7px;
+  }
+
+  #players th {
+      font-size: 1.1em;
+      text-align: left;
+      padding-top: 5px;
+      padding-bottom: 4px;
+      background-color: #522D80;
+      color: #ffffff;
+  }
+  #players td{
+      background-color: #F66733;
+  }
+  #players tr.alt td {
+      color: #000000;
+      background-color: #EAF2D3;
+  }
+  img.head{
+    width: 542px;
+    height: auto;
+  }
+  img.team{
+    margin: auto;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    max-height: 400px;
+    width:auto;
+    max-width: 100%;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+  }
+  p{
+    font-size: 45px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    color: white;
+  }
+  p.comment{
+    text-align: center;
+    font-size: 16px;
+  }
+  li {
+    display: inline-block;
+      float: center;
+  }
+  div.sidebar{
+        float: left;
+        width: 150px;
+        height: 1200px;
+        margin-right: -156px;
+        background-color: #F66733;
+        border: solid #F66733;
+  }
+  div.tableArea{
+        display: table;
+        height: 730px;
+        width: calc(100% - 156px);
+        min-width: calc(720px - 156px);
+        margin-left: 156px;
+  }
+  div.picArea{
+        display: table;
+        height: 400px;
+        width: calc(100% - 156px);
+        min-width: calc(720px - 156px);
+        margin-left: 156px;
+  }
+  div.titleArea{
+        text-align: center;
+        overflow: auto;
+        width: calc(100% - 156px);
+        min-width: calc(720px - 156px);
+        margin-left: 156px;
+        background-color: #522D80;
+  }
+  div.nav{ 
+        text-align: center;
+        width: 100%;
+        min-width: 720px;
+        background-color: #F66733;
+
+  }
+  a.bar:link, a.bar:visited {
+      display: block;
+      margin: -4px;
+      width: 150px;
+      font-weight: bold;
+      color: #FFFFFF;
+      background-color: #F66733;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+  a.bar:hover, a.bar:active {
+      background-color: #E65723;
+  }
+  a.bio:link{
+      color: white;
+      font-weight: bold;
+      background-color: #F66733;
+      display: block;
+      padding: 0 0 0 0;
+      margin: 0 0 0 0;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+  }
+  a.bio:visited{
+    color: gray;
+      font-weight: bold;
+      background-color: #F66733;
+      display: block;
+      padding: 0 0 0 0;
+      margin: 0 0 0 0;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+  }
+  td.bio{
+    text-align: center;
+  }
+  a.bio:hover, a.bar:active{
+    color: #FFFFFF;
+    background-color: #E65723;
+  }
+  img.main{
+    padding-top:50px;
+    margin: auto;
+    display: block;
+    max-width:600px;
+    width:100%;
+    height: auto;
+  }
+  span.white{
+    color: white;
+  }
+  span.regalia{
+    color: #522D80;
+  }
+  span.cuorange{
+    color: #F66733;
+  }
+  div.intro { 
+        text-align: center;
+        max-width: 800px;
+        font-size: 18px;
+        margin: auto;
+  }
+  </style>
+</head>
+<body>
+  <img src="customLogo.png" class="head">
+  <div class="nav">
+  <ul>
+      <li><a href="index.html" class="bar">Home</a></li>
+      <li><a href="practiceinfo.html" class="bar">Practice Info</a></li>
+
+      <li><a href="currentRoster.html" class="bar">Rosters</a></li>
+      <li><a href="schedule15_16.html" class="bar">Schedule</a></li>
+      <li><a href="ghostdance.html" class="bar">Ghost Dance</a></li>
+      <li><a href="jointsummit.html" class="bar">Joint Summit</a></li>
+
+  </ul>
+  </div>
+  <div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="currentRoster.html" class="bar">2016-2017</a></li>
+        <li><a href="roster2015_2016.html" class="bar">2015-2016</a></li>
+        <li><a href="roster2014_2015.html" class="bar">2014-2015</a></li>
+        <li><a href="roster2013_2014.html" class="bar">2013-2014</a></li>
+        <li><a href="roster2012_2013.html" class="bar">2012-2013</a></li>
+        <li><a href="roster2011_2012.html" class="bar">2011-2012</a></li>
+      </ul>
+    </div>
+    <div class="titleArea">
+      <p>Roster 2013-2014</p>
+    </div>
+    <div class="picArea">
+      <img src="sortofteam2013_2014.jpg" class="team">
+    </div>
+    <div class="tableArea">
+      <table id="players">
+        <tr>
+          <th>#</th>
+          <th>Last Name</th>
+          <th>First Name</th>
+          <th>Height</th>
+          <th>Year</th>
+          <th>Bio</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>O'Brien</td>
+          <td>Bobby</td>
+          <td>5'8"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="bobby.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Williams <span class="regalia">(C)</span></td>
+          <td>Tyler</td>
+          <td>6'1"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="tyler.html" class="bio">Bio</a></td>
+        
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Poole <span class="regalia">(C)</span></td>
+          <td>Derek</td>
+          <td>5'11"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="derek.html" class="bio">Bio</a></td>
+        
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Parsons</td>
+          <td>Matthew</td>
+          <td>5'7"</td>
+          <td>So.</td>
+          <td class="bio"><a href="parsons.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Waters <span class="regalia">(C)</span></td>
+          <td>Alex</td>
+          <td>5'9"</td>
+          <td>Jr.</td>
+          <td class="bio"><a href="ash.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Kennedy</td>
+          <td>Brad</td>
+          <td>6'3"</td>
+          <td>Jr.</td>
+          <td class="bio"><a href="brad.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Boyd</td>
+          <td>Isaiah</td>
+          <td>5'9"</td>
+          <td>So.</td>
+          <td class="bio"><a href="isaiah.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Price</td>
+          <td>Zack</td>
+          <td>6'4"</td>
+          <td>So.</td>
+          <td class="bio"><a href="zack.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Hamvas</td>
+          <td>Hunter</td>
+          <td>5'9"</td>
+          <td>So.</td>
+          <td class="bio"><a href="hunter.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>Lipsey</td>
+          <td>John</td>
+          <td>6'1"</td>
+          <td>Jr.</td>
+          <td class="bio"><a href="john.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Barton</td>
+          <td>Dalton</td>
+          <td>5'8"</td>
+          <td>Grad.</td>
+          <td class="bio"><a href="dalton.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>Brownlow</td>
+          <td>Andrew</td>
+          <td>5'10"</td>
+          <td>Grad.</td>
+          <td class="bio"><a href="brownlow.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>McGinley</td>
+          <td>Tom</td>
+          <td>5'9"</td>
+          <td>Fr.</td>
+          <td class="bio"><a href="tom.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Huffman</td>
+          <td>Blake</td>
+          <td>5'11"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="blake.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td>Hintz</td>
+          <td>Alex</td>
+          <td>6'3"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="ketchup.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Monroe</td>
+          <td>Jordan</td>
+          <td>5'11"</td>
+          <td>Jr.</td>
+          <td class="bio"><a href="jordan.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>48</td>
+          <td>McDonald</td>
+          <td>Miles</td>
+          <td>6'0"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="miles.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>52</td>
+          <td>Thompson</td>
+          <td>Connor</td>
+          <td>5'10"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="cthompson.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>61</td>
+          <td>Trotter</td>
+          <td>Christian</td>
+          <td>5'10"</td>
+          <td>Jr.</td>
+          <td class="bio"><a href="batman.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>69</td>
+          <td>Duda</td>
+          <td>Patrick</td>
+          <td>5'11"</td>
+          <td>So.</td>
+          <td class="bio"><a href="duda.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>73</td>
+          <td>Luthman</td>
+          <td>Adam</td>
+          <td>5'10"</td>
+          <td>Fr.</td>
+          <td class="bio"><a href="slippy.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>81</td>
+          <td>Wolfe</td>
+          <td>Ryan</td>
+          <td>6'0"</td>
+          <td>So.</td>
+          <td class="bio"><a href="studs.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>88</td>
+          <td>Botts</td>
+          <td>Will</td>
+          <td>6'0"</td>
+          <td>Sr.</td>
+          <td class="bio"><a href="botts.html" class="bio">Bio</a></td>
+        </tr>
+        <tr>
+          <td>98</td>
+          <td>Sayad</td>
+          <td>Chris</td>
+          <td>5'9"</td>
+          <td>Fr.</td>
+          <td class="bio"><a href="plank.html" class="bio">Bio</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="nav">
+  <ul>
+      <li><a href="links.html" class="bar">Links</a></li>
+      <li><a href="contact.html" class="bar">Contact</a></li>
+  </ul>
+  </div>
+</body>
+</html>

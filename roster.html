@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<title>Clemson Ultimate - Roster</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</head>
+  <div id="content">
+	  <div>
+		  <div id="socialMediaBar">
+		    <div id ="socialMediaLogos">
+			    <a href="https://twitter.com/Joint_Chiefs"><img class="socialMediaLogo" src="resources/images/logos/socialMedia/twitterLogo.png"></a>
+			    <a href="https://www.instagram.com/jointchiefsultimate/"><img class="socialMediaLogo" src="resources/images/logos/socialMedia/instagramLogo.png"></a>
+		    </div>
+		  </div>
+		  <div id="menuBar">
+		    <img src="resources/images/logos/team/chiefsLogo.png" style="margin-left: 150px; margin-top: -45px" align="left">
+		    <ul>
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="roster.html">Roster</a></li>
+		      <li><a href="tournament.html">Tournaments</a></li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li><a href="info.html">Information</a></li>
+		      <li><a href="contact.html">Contact</a></li>
+		    </ul>
+		  </div>
+	  </div>
+	  <div id="tile">
+      <div id="roster">
+	      <h2 style="margin-top: 50px">2018-2019 Roster</h2>
+        <div id="dataTable"> </div>
+        <div class="tileSpace"></div>
+      </div>
+    </div>
+    <div class="emptySpace"></div>
+  </div>
+</html>
+
+<script>
+$(document).ready(function() {
+  $.ajax({
+    url:"resources/data/rosters/roster2018-2019.csv",
+    dataType: "text",
+    success:function(data)
+    {
+      var players = data.split(/\r?\n|\r/);
+      console.log(players.length);
+      var tableData = '<table class="table table-bordered table-striped">';
+      //generate headers
+      tableData += '<col width = 20%>';
+ 		  tableData += '<col width = 50%>';
+ 		  tableData += '<col width = 30%>';
+			tableData += '<tr style="background-color: #000000">';
+      var headers = players[0].split(",");
+			for(var j = 0; j < headers.length; j++) {
+				tableData += '<th style="color: #ffffff">' + headers[j] + '</th>';
+			}
+			tableData += '</tr>';
+			console.log("headers generated");
+      for(var i = 1; i < players.length; i++) {
+        var player = players[i].split(",");
+        for(var j = 0; j < player.length; j++) {
+          if(j === 0) {
+            tableData += '<th>' + player[j] + '</th>';
+          }
+          else if (j == 1) {
+            tableData += '<td><a href="playerPages_2018-2019/'+ player[j] + '.html">' + player[j] + '</a></td>';
+          }
+          else {
+            tableData += '<td>'+ player[j] + '</td>';
+          }
+        }
+        tableData += '</tr>'
+      }
+      tableData += '</table>';
+      $('#dataTable').html(tableData);
+    }
+  });
+});
+</script>

@@ -1,0 +1,64 @@
+------------------------------------------------------------
+           name: WEHNER CRISTINE E
+     department:  314  GRAPHIC COMMUNICATIONS
+      classrank: FR
+          email: CWEHNER@CLEMSON.EDU
+          local: 0215  SANDERS, P O BOX  4125 
+           home: P O BOX 775967  STEAMBOAT SPRINGS CO 80477
+    local_phone: 858-8859
+------------------------------------------------------------
+           name: PHILLIPS HEATHER E
+     department:  804  BIOCHEMISTRY
+      classrank: SO
+          email: HPHILLI@CLEMSON.EDU; twirlie101@aol.com
+          local: 0406  CLEMSON HO, P O BOX  7813 
+           home: 5590 FRALEY CT  MERRITT ISLAND FL 32953
+    local_phone: 858-8148
+------------------------------------------------------------
+           name: MILLER JULIE M
+     department:  860  MEDICAL TECHNOLOGY
+      classrank: FR
+          email: JMMILLE@CLEMSON.EDU julmill@clemson.campus.mci.net
+          local: 0406  CLEMSON HO, P O BOX  7844 
+           home: 15613 INDIANOLA DR    ROCKVILLE MD 208552669
+    local_phone: 858-8148
+------------------------------------------------------------
+           name: DUNLAP APRIL M
+     department:  811  BIOLOGICAL SCIENCES
+      classrank: SO
+          email: APRILD@CLEMSON.EDU
+          local: 0318  C-HOUSE AP, P O BOX  9125 
+           home: 210 KILGORE CIRCLE    SIMPSONVILLE SC 29681
+    local_phone: 858-8093
+------------------------------------------------------------
+           name: BRAUSS KIMBERLY A
+     department:  620  ENGLISH
+      classrank: FR
+          email: KABRAUS@CLEMSON.EDU
+          local: 3309 STAFFORD C T  FLORENCE SC 29501
+    local_phone: 858-6761
+------------------------------------------------------------
+           name: BEVIS EMILY M
+     department:  811  BIOLOGICAL SCIENCES
+      classrank: SO
+          email: EBEVIS@CLEMSON.EDU
+          local: 04A6  BYRNES, P O BOX  4345 
+           home: 1415 JACKSON AVE  FLORENCE SC 29501
+    local_phone: 858-6761
+------------------------------------------------------------
+           name: DUNCAN DEIDRA A
+     department:  665  PSYCHOLOGY (BA)
+      classrank: FR
+          email: DEIDRAD@CLEMSON.EDU
+          local: 04B4  LEVER, P O BOX  4047 
+           home: 217 EAGLE VIEW LN  CAMDEN DE 19934
+    local_phone: 858-6513
+------------------------------------------------------------
+           name: HOHMANN RACHEL K
+     department:  118  ANIMAL SCIENCE
+      classrank: FR
+          email: RHOHMAN@CLEMSON.EDU
+          local: 05D5  LEVER, P O BOX  3291 
+           home: 463 COUNTRY CLUB DR   JOHNSONVILLE SC 29555
+    local_phone: 858-6556
+------------------------------------------------------------
